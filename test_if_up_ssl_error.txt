@@ -1,1 +1,6 @@
 Let set if this will update
+
+1. got error
+2. searched for curl-ca-bundle
+3. found it C:\Program Files\R\R-3.2.2\etc
+4. git config --system http.sslcainfo \bin/curl-ca-bundle.crt replacing the bin with the one you found
